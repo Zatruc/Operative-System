@@ -9,6 +9,7 @@ import IconApp, {
   CalendarIcon,
 } from "./IconApp";
 import StartButton from "./StartButton";
+import HomeButton from "./HomeButton";
 
 const Taskbar = () => {
   return (
@@ -28,6 +29,7 @@ const Taskbar = () => {
         <IconApp icon={SpotifyIcon} url="/spotify" />
       </div>
       <div className="flex-grow"></div>
+      <HomeButton />
     </div>
   );
 };

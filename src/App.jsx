@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <Escritorio>
         <Routes>
-          <Route path="/" element={<div>Inicio</div>} />
+          <Route path="/" element={<div></div>} />
           <Route path="/spotify" element={<SpotifySimulator />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="vscode" element={<VSCodeSimulator />} />
